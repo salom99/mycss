@@ -2,39 +2,6 @@
         Simple reset
 --------------------------*/
 
-/*
-@font-face {
-  font-family: 'Noto Serif CJK KR';
-  font-style: normal;
-    font-weight: 300;
-  src: local('HCR Batang'), local('Noto Serif CJK KR'), url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Katter/7392ea08/fonts/NotoSerifCJKkr-Regular-subset.woff2) format('woff2'), url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Katter/7392ea08/fonts/NotoSerifCJKkr-Regular-subset.woff) format('woff');
-font-display: fallback;
-} 
-*/
-
-@font-face {
-  font-family: 'IropkeBatang';
-  font-style: normal;
-  font-weight: 400;
-  src: local('iropke batang'), local('HCR Batang'),
-		url(//cdn.jsdelivr.net/gh/salom99/iropke/IropkeBatangM.woff2) format('woff2'),
-		url(//cdn.jsdelivr.net/gh/salom99/iropke/IropkeBatangM.woff) format('woff'),
-		url(//cdn.jsdelivr.net/gh/salom99/iropke/IropkeBatangM.ttf) format('truetype');
-  /*src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot);
-  src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot?#iefix) format('embedded-opentype'),
-       url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.woff) format('woff'),
-       url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.ttf) format('truetype'); 엡체제공 링크 */
-font-display: fallback;
-}
-
-/*
-@font-face {
-  font-family: 'Georgia';
-  src: local('Georgia');
-  unicode-range: U+0021-007f,U+2010-2027;
-}
-*/
-
 * {/*�댄븯 �덈룄�곗뿉�� �고듃 �먮┸�� 嫄� �닿껐 �꾪빐*/
 	text-shadow: rgba(0,0,0,0.1) 0 0 0.45px;
 }
